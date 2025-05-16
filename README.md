@@ -19,7 +19,30 @@
 - Define manager_id as a unique integer, auto-increment, and primary key.
 - Define employee_id as an integer, which will be a foreign key referencing employee_id in the employees table.
 # Query Statement
+- Employee Table
 <img src="Image/" alt="Alt Text" Width="300">
+
+- Department Table
+<img src="Image/" alt="Alt Text" Width="300">
+
+- Employee & Department Table
+<img src="Image/" alt="Alt Text" Width="300">
+
+- Employees Project
+<img src="Image/" alt="Alt Text" Width="300">
+
+- Manager Table
+<img src="Image/" alt="Alt Text" Width="300">
+
+
+
+
+
+
+
+
+
+
 # Table Structure
 
 # Entity-Relationship Schema
