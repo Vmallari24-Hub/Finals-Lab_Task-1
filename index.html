@@ -1,1 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Final Lab Task 1: MySQL Basics</title>
+  <style>
+    body {
+      background-color: black;
+      color: #00ff00;
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      padding: 30px;
+    }
 
+    .glitch {
+      font-size: 36px;
+      color: #00ffff;
+      animation: glitch 1s infinite;
+    }
+
+    @keyframes glitch {
+      0% { text-shadow: 2px 0 red, -2px 0 blue; }
+      20% { text-shadow: -2px -2px red, 2px 2px blue; }
+      40% { text-shadow: 2px 2px red, -2px -2px blue; }
+      60% { text-shadow: -2px 2px red, 2px -2px blue; }
+      80% { text-shadow: 2px -2px red, -2px 2px blue; }
+      100% { text-shadow: -2px 0 red, 2px 0 blue; }
+    }
+
+    h1, h2 {
+      color: #00ffff;
+    }
+
+    h3 {
+      color: #00ffff;
+      margin-top: 30px;
+    }
+
+    img {
+      margin: 20px 0;
+      border: 2px solid #00ff00;
+      width: 700px;
+    }
+
+    ul {
+      text-align: left;
+      margin: 0 auto;
+      max-width: 700px;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .section {
+      margin-bottom: 50px;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="glitch">Final Lab Task 1: MySQL Basics</h1>
+
+  <div class="section">
+    <h2>Step 1: Create the Employees Table</h2>
+    <ul>
+      <li>Define <strong>employee_id</strong> as auto-incremented primary key</li>
+      <li>Add <strong>employee_name</strong> as VARCHAR(255) and NOT NULL</li>
+      <li>Add <strong>manager_id</strong> as a foreign key referencing employee_id in the same table</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Step 2: Create the Departments Table</h2>
+    <ul>
+      <li>Define <strong>department_id</strong> as auto-incremented primary key</li>
+      <li>Add <strong>department_name</strong> as VARCHAR(255) and NOT NULL</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Step 3: Create the employee_departments Table</h2>
+    <ul>
+      <li>Add <strong>employee_id</strong> referencing employees.employee_id</li>
+      <li>Add <strong>department_id</strong> referencing departments.department_id</li>
+      <li>Set a composite primary key on both</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Step 4: Create the employee_projects Table</h2>
+    <ul>
+      <li>Define <strong>employee_id</strong> as an integer, foreign key referencing employees</li>
+      <li>Define <strong>project_name</strong> as VARCHAR(255), NOT NULL</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Step 5: Create the managers Table</h2>
+    <ul>
+      <li>Define <strong>manager_id</strong> as a unique auto-incremented primary key</li>
+      <li>Define <strong>employee_id</strong> as a foreign key referencing employees</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Query Statement</h2>
+    <h3>Employee Table</h3>
+    <img src="Image/T1 1.PNG" alt="Employee Table">
+
+    <h3>Department Table</h3>
+    <img src="Image/t1 Dept.PNG" alt="Department Table">
+
+    <h3>Employee & Department Table</h3>
+    <img src="Image/t1 employee.PNG" alt="Employee & Department Table">
+
+    <h3>Employees Project</h3>
+    <img src="Image/t1 employee proj.PNG" alt="Employees Project">
+
+    <h3>Manager Table</h3>
+    <img src="Image/t1 manager.PNG" alt="Manager Table">
+  </div>
+
+  <div class="section">
+    <h2>Table Structure</h2>
+    <h3>Employees Table</h3>
+    <img src="Image/t1 employee table.PNG" alt="Employees Table">
+
+    <h3>Department Table</h3>
+    <img src="Image/t1 dept tbl.PNG" alt="Department Table">
+
+    <h3>Employee and Department Table</h3>
+    <img src="Image/t1 emp and dpt tbl.PNG" alt="Employee and Department Table">
+
+    <h3>Employees Project</h3>
+    <img src="Image/t1 emp proj table.PNG" alt="Employees Project Table">
+
+    <h3>Manager Table</h3>
+    <img src="Image/t1 manager tbl.PNG" alt="Manager Table">
+  </div>
+
+  <div class="section">
+    <h2>Entity-Relationship Schema</h2>
+    <img src="Image/erd final.PNG" alt="ER Diagram">
+  </div>
+</body>
+  </html>
