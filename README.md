@@ -35,14 +35,22 @@
 <img src="Image/t1 manager.PNG" alt="Alt Text" Width="700">
 
 
-
-
-
-
-
-
-
-
 # Table Structure
+- Employees Table
+<img src="Image/t1 employee table.PNG" alt="Alt Text" Width="700">
+
+- Department Table
+<img src="Image/t1 dept tbl.PNG" alt="Alt Text" Width="700">
+
+- Employee and Department Table
+<img src="Image/t1 emp and dpt tbl.PNG" alt="Alt Text" Width="700">
+
+- Employees Project
+<img src="Image/t1 emp proj table.PNG" alt="Alt Text" Width="700">
+
+- Manager Table
+<img src="Image/t1 manager tbl.PNG" alt="Alt Text" Width="700">
+
+
 
 # Entity-Relationship Schema
