@@ -20,19 +20,19 @@
 - Define employee_id as an integer, which will be a foreign key referencing employee_id in the employees table.
 # Query Statement
 - Employee Table
-<img src="Image/t1%20employee.png" alt="Alt Text" Width="300">
+<img src="Image/T1 1.PNG" alt="Alt Text" Width="700">
 
 - Department Table
-<img src="Image/" alt="Alt Text" Width="300">
+<img src="Image/t1 Dept.PNG" alt="Alt Text" Width="700">
 
 - Employee & Department Table
-<img src="Image/" alt="Alt Text" Width="300">
+<img src="Image/t1 employee.PNG" alt="Alt Text" Width="700">
 
 - Employees Project
-<img src="Image/" alt="Alt Text" Width="300">
+<img src="Image/t1 employee proj.PNG" alt="Alt Text" Width="700">
 
 - Manager Table
-<img src="Image/" alt="Alt Text" Width="300">
+<img src="Image/t1 manager.PNG" alt="Alt Text" Width="700">
 
 
 
