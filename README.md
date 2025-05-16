@@ -20,7 +20,7 @@
 - Define employee_id as an integer, which will be a foreign key referencing employee_id in the employees table.
 # Query Statement
 - Employee Table
-<img src="Image/" alt="Alt Text" Width="300">
+<img src="Image/t1%20employee.png" alt="Alt Text" Width="300">
 
 - Department Table
 <img src="Image/" alt="Alt Text" Width="300">
