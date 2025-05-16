@@ -54,3 +54,6 @@
 
 
 # Entity-Relationship Schema
+<img src="Image/erd final.PNG" alt="Alt Text" Width="700">
+
+
